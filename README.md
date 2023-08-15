@@ -21,11 +21,11 @@ Utilizes [Angular's Material Design](https://v15.material.angular.io/components/
 ##### Readable, clean and comprehensive code. Following the Angular and Material design paradigms ✅
 ##### Robust architecture and file structure, ensuring smooth future development ✅
 ##### Encapsulated generic components, enhancing reusability ✅
-##### Full browser support. Tested on Edge, Safari, Chrome, Opera, Brave browser, Firefox and Safari ✅
-##### Simple and intuitive user interface with interaction and transitional animations ✅ 
-##### Form and user input handling ✅
+##### Full browser support. Tested on Edge, Chrome, Opera, Brave browser, Firefox and Safari ✅
+##### Simple and intuitive user interface with interactions and transitional animations ✅ 
+##### User input handling ✅
 ##### Global and encapsulated styles ✅
-##### One-to-one model mapping against the objects in ESRI's Arcgis APi ✅
+##### Model mapping against the objects coming from ESRI's Arcgis APi ✅
 
 ## Future development
 ###### Input field autocomplete suggestions ❗
