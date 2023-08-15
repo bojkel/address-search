@@ -1,0 +1,48 @@
+<div class="search-address-view-wrap">
+  <div class="search-field-button-wrap">
+    <mat-form-field class="example-form-field">
+      <mat-label>Въведете адрес</mat-label>
+      <input
+        matInput
+        type="text"
+        [formControl]="addressFormControl"
+        (keydown.enter)="getAddressCandidates()"
+        (keydown)="getAddressSuggestions()"
+      >
+      <button
+        *ngIf="addressFormControl.valid"
+        matSuffix
+        mat-icon-button
+        aria-label="Clear"
+        matTooltip="Изчисти текст и резултати"
+        (click)="resetAddressSearch()">
+        <mat-icon>close</mat-icon>
+      </button>
+      <mat-error
+        *ngIf="addressFormControl.touched && addressFormControl.invalid">
+        Нужен е <strong>адрес</strong>, за да търсите
+      </mat-error>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="primary"
+      [disabled]="addressFormControl.invalid"
+      (click)="getAddressCandidates()"
+    >Търси</button>
+  </div>
+
+  <ng-container #addressResults>
+    <app-error
+      [condition]="!isAddressValid()"
+      [errorText]="'Няма намерени адреси'"
+    ></app-error>
+
+    <div class="search-results-wrap" *ngIf="addressCandidates?.candidates!.length > 0">
+      <app-loading-bar [loading]="loading"></app-loading-bar>
+      <app-address-details
+        [array]="addressCandidates?.candidates!"
+      ></app-address-details>
+    </div>
+  </ng-container>
+
+</div>

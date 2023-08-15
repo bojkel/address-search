@@ -1,6 +1,38 @@
-# EsriAddressDemo
+# ESRI Address Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)@15.2.4.
+
+Utilizes [Angular's Material Design](https://v15.material.angular.io/components/categories) for the UI components. 
+[ESRI's Arcgis APi](https://developers.arcgis.com/rest/services-reference/enterprise/geocode-service.htm) and Google Maps for visualizing the map in the browser based off the address' location (via latitude and longitude).
+
+## Onboarding
+
+1) Pull the repo locally
+2) Run ```$npm install```
+3) Set up your Google Maps APi key (detailed instructions in ```api.key.example.ts```)
+4) Run ```$ng serve```
+
+# Checklist
+##### На български ✅
+##### Responsive design ✅
+##### Mobile first approach ✅
+##### Map integration ✅
+##### Bug free ✅
+##### Readable, clean and comprehensive code. Following the Angular and Material design paradigms ✅
+##### Robust architecture and file structure, ensuring smooth future development ✅
+##### Encapsulated generic components, enhancing reusability ✅
+##### Full browser support. Tested on Edge, Safari, Chrome, Opera, Brave browser, Firefox and Safari ✅
+##### Simple and intuitive user interface with interaction and transitional animations ✅ 
+##### Form and user input handling ✅
+##### Global and encapsulated styles ✅
+##### One-to-one model mapping against the objects in ESRI's Arcgis APi ✅
+
+## Future development
+###### Input field autocomplete suggestions ❗
+###### Pagination ❗
+###### Deployment ❗
+
+## MIT License
 
 ## Development server
 

@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Google Maps APi
+/src/utils/api/api.key.ts

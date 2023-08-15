@@ -1,0 +1,10 @@
+<div class="map-wrap">
+  <p><strong>Latitude</strong>:{{latitude}}</p>
+  <p><strong>Longitude</strong>:{{longitude}}</p>
+  <agm-map
+    [latitude]="latitude"
+    [longitude]="longitude"
+    [zoom]="zoom"
+    (mapClick)="onMapClicked($event)"
+  ></agm-map>
+</div>
