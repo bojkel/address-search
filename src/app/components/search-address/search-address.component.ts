@@ -44,8 +44,7 @@ export class SearchAddressComponent {
   }
 
   isAddressValid(): boolean {
-    if (this.addressCandidates?.candidates!.length === 0 && this.addressFormControl.valid) return false;
+    if (this.addressCandidates?.candidates!.length === 0 && this.addressFormControl.invalid) return false;
     else return true;
   }
-
 }
