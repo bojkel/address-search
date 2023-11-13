@@ -1,4 +1,4 @@
-# ESRI Address Search
+# Address Search
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)@15.2.4.
 
@@ -9,11 +9,10 @@ Utilizes [Angular's Material Design](https://v15.material.angular.io/components/
 
 1) Pull the repo locally
 2) Run ```$npm install```
-3) Set up your Google Maps APi key (detailed instructions in ```api.key.example.ts```)
+3) Set up your Google Maps APi key (detailed instructions in ```api.key.ts```)
 4) Run ```$ng serve```
 
 # Checklist
-##### На български ✅
 ##### Responsive design ✅
 ##### Mobile first approach ✅
 ##### Map integration ✅

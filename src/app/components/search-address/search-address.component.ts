@@ -34,7 +34,7 @@ export class SearchAddressComponent {
     this.apiService.getAddressSuggestions(this.addressFormControl.value)
       .subscribe(suggestions => {
         this.addressSuggestions = suggestions;
-        console.log('suggestions: ', suggestions);
+        console.log('Suggestions: ', suggestions);
     });
   }
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "esri_address_demo": {
+    "address_search": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/esri_address_demo",
+            "outputPath": "dist/address_search",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "esri_address_demo:build:production"
+              "browserTarget": "address_search:build:production"
             },
             "development": {
-              "browserTarget": "esri_address_demo:build:development"
+              "browserTarget": "address_search:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "esri_address_demo:build"
+            "browserTarget": "address_search:build"
           }
         },
         "test": {

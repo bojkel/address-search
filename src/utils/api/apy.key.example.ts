@@ -6,4 +6,4 @@
     3) Paste the APi key in the variable below.
  */
 
-export const googleMapsApiKey: string = 'your-google-maps-api-key';
+export const googleMapsApiKey: string = 'your-google-api-key';

@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'esri_address_demo'`, () => {
+  it(`should have as title 'address_search'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('esri_address_demo');
+    expect(app.title).toEqual('Address search');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('esri_address_demo app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('address_search app is running!');
   });
 });

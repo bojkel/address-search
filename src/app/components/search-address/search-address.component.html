@@ -1,7 +1,7 @@
 <div class="search-address-view-wrap">
   <div class="search-field-button-wrap">
     <mat-form-field class="example-form-field">
-      <mat-label>Въведете адрес</mat-label>
+      <mat-label>Your address here</mat-label>
       <input
         matInput
         type="text"
@@ -14,13 +14,13 @@
         matSuffix
         mat-icon-button
         aria-label="Clear"
-        matTooltip="Изчисти текст и резултати"
+        matTooltip="Clear search criteria and results"
         (click)="resetAddressSearch()">
         <mat-icon>close</mat-icon>
       </button>
       <mat-error
         *ngIf="addressFormControl.touched && addressFormControl.invalid">
-        Нужен е <strong>адрес</strong>, за да търсите
+        An <strong>address</strong> is required to search
       </mat-error>
     </mat-form-field>
     <button
@@ -28,13 +28,13 @@
       color="primary"
       [disabled]="addressFormControl.invalid"
       (click)="getAddressCandidates()"
-    >Търси</button>
+    >Search</button>
   </div>
 
   <ng-container #addressResults>
     <app-error
       [condition]="!isAddressValid()"
-      [errorText]="'Няма намерени адреси'"
+      [errorText]="'No addresses found'"
     ></app-error>
 
     <div class="search-results-wrap" *ngIf="addressCandidates?.candidates!.length > 0">

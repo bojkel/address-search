@@ -43,3 +43,6 @@ Thumbs.db
 
 # Google Maps APi
 /src/utils/api/api.key.ts
+
+# .ENV
+/.env
