@@ -9,27 +9,7 @@ Utilizes [Angular's Material Design](https://v15.material.angular.io/components/
 
 1) Pull the repo locally
 2) Run ```$npm install```
-3) Set up your Google Maps APi key (detailed instructions in ```api.key.ts```)
-4) Run ```$ng serve```
-
-# Checklist
-##### Responsive design ✅
-##### Mobile first approach ✅
-##### Map integration ✅
-##### Bug free ✅
-##### Readable, clean and comprehensive code. Following the Angular and Material design paradigms ✅
-##### Robust architecture and file structure, ensuring smooth future development ✅
-##### Encapsulated generic components, enhancing reusability ✅
-##### Full browser support. Tested on Edge, Chrome, Opera, Brave browser, Firefox and Safari ✅
-##### Simple and intuitive user interface with interactions and transitional animations ✅ 
-##### User input handling ✅
-##### Global and encapsulated styles ✅
-##### Model mapping against the objects coming from ESRI's Arcgis APi ✅
-
-## Future development
-###### Input field autocomplete suggestions ❗
-###### Pagination ❗
-###### Deployment ❗
+3) Run ```$ng serve```
 
 ## MIT License
 
